@@ -1,5 +1,4 @@
 import CheckToken from '@/components/CheckToken'
-import Background from '@/components/Designs/Background';
 import Footer from '@/components/Designs/Footer';
 import Navbar from '@/components/Designs/Navbar';
 import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
