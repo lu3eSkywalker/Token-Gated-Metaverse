@@ -78,7 +78,7 @@ const Metaverse = () => {
 
 
                     <div className='flex flex-col items-start z-10 mt-16'>
-                    <h1 className="text-white text-[54px] font-light">METAVERSE</h1>
+                    <h1 className="text-white text-[54px] font-light">WELCOME TO THE METAVERSE</h1>
                         <h2 className="text-white text-[22px] font-extralight font-rocgroteskwide-extralight">
                             This is the Demo of Token Gated Metaverse
                         </h2>
