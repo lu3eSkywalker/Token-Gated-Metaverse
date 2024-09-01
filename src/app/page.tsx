@@ -1,14 +1,15 @@
 "use client";
- import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
-import React from 'react'
-
-const TokenMint = () => {
-
+ 
+import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
+import Redirect from "./redirect";
+ 
+export default function Home() {
   return (
-    <div>
-         <WalletMultiButton style={{}} />
-    </div>
-  )
+    <main className="flex items-center justify-center min-h-screen">
+      <div className="border hover:border-slate-900 rounded">
+        <WalletMultiButton style={{}} />
+      </div>
+      <Redirect />
+    </main>
+  );
 }
-
-export default TokenMint
