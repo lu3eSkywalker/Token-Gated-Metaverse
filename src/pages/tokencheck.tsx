@@ -16,7 +16,13 @@ const Tokencheck = () => {
 
 
   return (
+    <div className="relative h-screen w-full overflow-hidden">
     <div className="h-screen w-full bg-cover bg-center" style={{ backgroundImage: "url('https://i.pinimg.com/originals/4a/a9/9b/4aa99b6ad2d2cbc7cb04a41571885a8f.jpg')" }}>
+
+
+  {/* <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{ backgroundImage: "url('https://i.pinimg.com/originals/4a/a9/9b/4aa99b6ad2d2cbc7cb04a41571885a8f.jpg')" }}></div> */}
+
+
             <Navbar />
 
               <div className='flex justify-between items-center p-4'>
@@ -44,6 +50,7 @@ const Tokencheck = () => {
             <CheckToken />
 
             <Footer />
+      </div>
       </div>
   )
 }
